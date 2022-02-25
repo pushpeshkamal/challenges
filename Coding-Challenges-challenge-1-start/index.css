@@ -9,6 +9,7 @@ body {
 li, ul {
   list-style-type: none;
   padding: 0;
+  color: white;
 }
 main {
   padding: 140px 40px 40px;
