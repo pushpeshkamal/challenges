@@ -1,0 +1,86 @@
+* {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  display: -ms-grid;
+  display: grid;
+  place-content: center;
+  font-family: 'Helvitica', sans-serif;
+  background: #fdfdfd;
+}
+
+.form-container {
+  max-width: 400px;
+  background: white;
+  -webkit-box-shadow: 20px 20px 60px rgba(248, 0, 0, 0.404);
+          box-shadow: 20px 20px 60px rgba(248, 0, 0, 0.404);
+  border-radius: 1em;
+  padding: 2em;
+  position: relative;
+}
+
+h1 {
+  margin: 3em 0 .5em;
+  text-align: center;
+}
+
+h2 {
+  font-size: 3em;
+  opacity: 0;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  margin-top: 8em;
+}
+
+.success {
+  position: absolute;
+  z-index: -1;
+}
+
+.lottie {
+  width: 100%;
+  height: 100vh;
+  background-size: cover;
+  pointer-events: none;
+}
+
+label {
+  display: block;
+  font-size: 1.125rem;
+  margin-bottom: .3em;
+}
+
+input {
+  width: 100%;
+  padding: .8em;
+  border: 1px solid #ccc;
+  margin-bottom: 1em;
+  border-radius: .3em;
+}
+
+a {
+  text-decoration: none;
+  background: #b61580;
+  color: white;
+  display: block;
+  padding: .5em;
+  text-align: center;
+  border-radius: .3em;
+}
+
+p {
+  font-size: 0.9em;
+  margin: 1em 0 1em;
+  padding: .8em;
+  background: #f3eeee;
+}
+
+.onstart {
+  position: absolute;
+  top: -200px;
+}
+/*# sourceMappingURL=main.css.map */
