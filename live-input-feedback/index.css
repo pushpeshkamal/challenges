@@ -31,7 +31,7 @@ form input {
   color: green;
   opacity: 0;
   transform: translateY(20px);
-  transition: all ease-in 0.5 seconds;
+  transition: all ease-in 0.2s;
 }
 
 form .valid input{
