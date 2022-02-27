@@ -26,3 +26,21 @@ form input {
 }
 
 /* solution styles */
+
+.tick {
+  color: green;
+  opacity: 0;
+  transform: translateY(20px);
+  transition: all ease-in 0.5 seconds;
+}
+
+form .valid input{
+  border-color: #4caf50;
+  outline-color: #4caf50;
+}
+
+.valid .tick{
+  border-color: #4caf50;
+  opacity: 1;
+  transform: translateY(0px);
+}
