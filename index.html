@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="email-subscription/css/main.css">
+    <title>Challenges</title>
+</head>
+<body>
+    <h1>CHALLENGES</h1>
+    <div class="form-container">
+    <h4>A compilation of Internet challenges &#127866    </h4>
+    <button type="button" class="collapsible">email-subscription</button>
+        <div class="content">
+            <p>Contains a beautiful deigned newsletter template that can be embedded in your site. It is a simple and easy to use template that can be used to send newsletters to your subscribers.
+                Knowledge of HTML,<mark> SCSS</mark> and JavaScript is required to use this template.</p><p>
+            <a href="email-subscription/index.html"> Click Here </a></p>
+        </div>
+    <button type="button" class="collapsible">live-input-feedback</button>
+        <div class="content">
+            <p>Contains a core concept of regular expressions. It is a very useful tool to validate user input.
+                Knowledge of HTML,<mark> Regex </mark>and JavaScript is required.</p>
+                <p>
+            <a href="live-input-feedback/index.html"> Click Here </a></p>
+        
+        </div>
+        <button type="button" class="collapsible">slide-in-menu</button>
+        <div class="content">
+            <p>Contains a template which can be useful in designing the navigation bar and the burger slide menu of a website.
+                Knowledge of HTML,<mark> CSS </mark> and JS is required.</p>
+                <p>
+            <a href="slide-in-menu/index.html"> Click Here </a></p>
+        </div>
+        <button type="button" class="collapsible">hashcode2022</button>
+        <div class="content">
+            <p><a href="https://codingcompetitions.withgoogle.com/hashcode/round/00000000008caae7/000000000098afc8"> Qualification Round Question </a><br>
+            <a href="hashcode2022/algorithm/solution.py"> Download Mentorship and Teamwork Solution </a></p>
+        </div>
+
+    </div>
+</body>
+<script>
+    var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+    } else {
+      content.style.display = "block";
+    }
+  });
+}
+
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.maxHeight){
+      content.style.maxHeight = null;
+    } else {
+      content.style.maxHeight = content.scrollHeight + "px";
+    }
+  });
+}
+</script>
+</html>
